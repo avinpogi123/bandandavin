@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40400%3B500&display=swap%27%29%3B);
+
+body{
+    font-family: cursive;
+    background-image: url('kami.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*------------ Login container ------------*/
+.box-area{
+    width: 930px;
+    height: 450px;
+}
+/*------------ Right box ------------*/
+.right-box{
+    padding: 40px 30px 20px 20px;
+    padding-left: 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+    font-size: 16px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+     .box-area{
+        margin: 0 10px;
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+}
